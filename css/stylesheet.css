@@ -1,5 +1,38 @@
 body {
 	background-color: white;
-	font-family: arial; 
+	font-family: houschka-rounded, sans-serif;
+	font-weight: 600;
+	font-style: normal;
 }
 
+
+
+
+.navbar {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #450001;
+    position: fixed;
+    top: 0;
+    width: 60%;
+}
+
+.navbar a {
+    display: block;
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    cursor: pointer;
+    background-color: #8d4b48;
+}
+
+.navbar a.active {
+    background-color: #8d4b48;
+}
