@@ -60,15 +60,18 @@ body {
 	display: none;
 }
 
-.navbar .name {
+.navbar .storeName {
 	float: left;
 }
 
-.name a:hover {
+.storeName a:hover {
     cursor: pointer;
 }
 
+/*MEDIA QUERIES FOR NAV BAR*/
+
 @media screen and (max-width: 1000px) {
+
 	.navbar {
     	width: 100%;
 	}
@@ -82,10 +85,11 @@ body {
 	.navbar a.icon{
 		float: right;
 		display: block;
-		}
 	}
+}
 
 @media screen and (max-width: 1000px) {
+
 	.navbar.responsive {
 		position: relative;
 	}
@@ -175,4 +179,8 @@ form {
 	margin: 0 auto;
     text-align: center;
     padding: 20px;
+}
+
+.inputName {
+	
 }
