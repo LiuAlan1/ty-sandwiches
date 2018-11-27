@@ -7,6 +7,8 @@ body {
     overflow-x: hidden;
 }
 
+/*FOOTER*/
+
 .footer {
     position: fixed;
     left: 0;
@@ -20,10 +22,7 @@ body {
 .footer span {
 	font-weight: normal;
 }
-
-.titleitem {
-	font-size: 72px;
-}
+/*NAVIGATION BAR*/
 
 .navbar {
     display: inline-block;
@@ -69,29 +68,6 @@ body {
     cursor: pointer;
 }
 
-.menu {
-	color: white;
-	padding: 5px;
-	background-color: #450001;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	white-space: nowrap;
-}
-
-.menuitem {
-	width: 350px;
-	padding: 5px;
-    display: inline-block;
-}
-
-.menuitem img {
-	width: 300px;
-}
-
-.menuitem p {
-	text-align: center;
-}
-
 @media screen and (max-width: 1000px) {
 	.navbar {
     	width: 100%;
@@ -126,4 +102,77 @@ body {
 	.navbar.responsive a.name {
 		display: none;
 	}
+}
+
+/*MENU HTML*/
+
+.menuTitle {
+	font-size: 72px;
+}
+
+.menu {
+	color: white;
+	padding: 5px;
+	background-color: #450001;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+
+.menuitem {
+	width: 350px;
+	padding: 5px;
+    display: inline-block;
+}
+
+.menuitem img {
+	width: 300px;
+}
+
+.menuitem p {
+	text-align: center;
+}
+
+/*LOCATION HTML*/
+/*CSS TAKEN FROM https://www.embedgooglemap.net/*/
+
+.mapouter{
+	text-align:right;
+	width:1000px;
+	height:500px;
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	width:1000px;
+	height:500px;
+}
+
+/*ORDER HTML*/
+.orderbutton {
+	position: relative;
+	margin: 0px auto;
+	color:transparent;
+}
+
+.doordash {
+	width:374px;
+	height:165px;
+	background-image: url(../images/doordash.png);
+}
+
+.grubhub {
+	width:374px;
+	height:88px;
+	background-image: url(../images/grubhub.png);
+}
+
+.orderbuttonimage {
+	text-decoration: none;
+}
+
+form {
+	margin: 0 auto;
+    text-align: center;
+    padding: 20px;
 }
