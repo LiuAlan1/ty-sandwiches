@@ -72,10 +72,12 @@ hr {
 .navbar a.option:hover {
     cursor: pointer;
     background-color: #8d4b48;
+    color: white;
 }
 
 .navbar a.active {
     background-color: #8d4b48;
+    color: white;
 }
 
 .navbar .icon {
@@ -88,6 +90,12 @@ hr {
 
 .storeName a:hover {
     cursor: pointer;
+}
+
+.navbar .orderbutton {
+	border-radius: 50%;
+    width: 3.5%;
+	background-color: orange;
 }
 
 /*MEDIA QUERIES FOR NAV BAR*/
@@ -176,7 +184,7 @@ hr {
 }
 
 /*ORDER HTML*/
-.orderbutton {
+.orderbuttondirect {
 	position: relative;
 	margin: 0px auto;
 	color:transparent;
