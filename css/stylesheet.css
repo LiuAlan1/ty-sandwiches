@@ -1,10 +1,30 @@
 body {
-	background-color: white;
-	color: black;
+	background-color: #450001;
+	color: white;
 	font-family: houschka-rounded, sans-serif;
 	font-style: normal;
   	width: 100%;
     overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+hr {
+	border-color: white;
+	width: 100%;
+	position: relative;
+	left: -7px;
+	top: 103px;
+}
+
+.pageName {
+	position: relative;
+	width: 450px;
+    border-radius: 20px;
+	margin: 0 auto;
+	font-size: 60px;
+	text-align: center;
+	background-color: white;
+	color: #450001;
 }
 
 /*FOOTER*/
@@ -14,8 +34,8 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #450001;
-    color: white;
+    background-color: white;
+    color: #450001;
 	text-align: center;
 }
 
@@ -25,25 +45,27 @@ body {
 /*NAVIGATION BAR*/
 
 .navbar {
+    border-radius: 20px;
     display: inline-block;
     list-style-type: none;
     padding: 0;
     overflow: hidden;
-    background-color: #450001;
+    background-color: white;
     position: absolute;
     top: 30px;
-    left: 0;
-    width: 60%;
+    left: -20px;
+    width: 70%;
+    z-index: 100;
 }
 
 .navbar a {
     display: block;
     float: right;
-    color: white;
+    color: #450001;
     text-align: center;
     padding: 20px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
 	font-weight: 600;
 }
 
@@ -74,9 +96,9 @@ body {
 
 	.navbar {
     	width: 100%;
-	}
-	.navbar a.name {
-		display: none;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
 	}
 	.navbar a {
 		display: none;
@@ -91,7 +113,7 @@ body {
 @media screen and (max-width: 1000px) {
 
 	.navbar.responsive {
-		position: relative;
+		position: absolute;
 	}
 	.navbar.responsive.icon{
 		position: absolute;
@@ -103,21 +125,19 @@ body {
 		display: block;
 		text-align: right;
 	}
-	.navbar.responsive a.name {
+	.navbar.responsive a.storeName {
 		display: none;
 	}
 }
 
 /*MENU HTML*/
 
-.menuTitle {
-	font-size: 72px;
-}
-
 .menu {
-	color: white;
+	position: relative;
+	left: -7px;
+	color: #450001;
 	padding: 5px;
-	background-color: #450001;
+	background-color: white;
 	overflow-x: scroll;
 	overflow-y: hidden;
 	white-space: nowrap;
