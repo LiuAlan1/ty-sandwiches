@@ -54,7 +54,8 @@ hr {
     position: absolute;
     top: 30px;
     left: -20px;
-    width: 70%;
+    width: 80%;
+    height: 90px;
     z-index: 100;
 }
 
@@ -63,9 +64,10 @@ hr {
     float: right;
     color: #450001;
     text-align: center;
+    position: relative;
     padding: 20px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 36px;
 	font-weight: 600;
 }
 
@@ -80,6 +82,10 @@ hr {
     color: white;
 }
 
+.navbar .option,.active {
+    left: -60px;
+}
+
 .navbar .icon {
 	display: none;
 }
@@ -92,10 +98,15 @@ hr {
     cursor: pointer;
 }
 
-.navbar .orderbutton {
-	border-radius: 50%;
-    width: 3.5%;
-	background-color: orange;
+.orderButtonPos {
+	z-index: 101;
+	float: right;
+	position: fixed;
+	right: 0;
+}
+
+.orderButtonNav {
+	height: 100px;
 }
 
 /*MEDIA QUERIES FOR NAV BAR*/
@@ -112,9 +123,12 @@ hr {
 		display: none;
    		float: left;
 	}
-	.navbar a.icon{
+	.navbar a.icon {
 		float: right;
 		display: block;
+	}
+	.orderButtonPos {
+		display: none;
 	}
 }
 
@@ -123,7 +137,7 @@ hr {
 	.navbar.responsive {
 		position: absolute;
 	}
-	.navbar.responsive.icon{
+	.navbar.responsive.icon {
 		position: absolute;
 		left: 0;
 		top: 0;
