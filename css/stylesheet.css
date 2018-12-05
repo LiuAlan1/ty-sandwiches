@@ -73,8 +73,18 @@ hr {
     position: relative;
     padding: 20px;
     text-decoration: none;
-    font-size: 36px;
 	font-weight: 600;
+}
+
+/*TY SANDWICHES*/
+.navbar .storeName {
+	float: left;
+    font-size: 36px;
+}
+
+/*Home, Menu, etc.*/
+.navbar a.option {
+    font-size: 36px;
 }
 
 .navbar a.option:hover {
@@ -83,18 +93,17 @@ hr {
     color: white;
 }
 
+/*Home, Menu, etc.*/
 .navbar a.active {
     background-color: #8d4b48;
     color: white;
+    font-size: 36px;
 }
 
 .navbar .icon {
 	display: none;
 }
 
-.navbar .storeName {
-	float: left;
-}
 
 .navbar .hidden {
 	display: none;
