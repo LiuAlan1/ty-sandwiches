@@ -128,7 +128,7 @@ hr {
 	}
 
 	.navbar a.icon {
-		float: right;
+		float: left;
 		display: block;
 	}
 
@@ -146,7 +146,7 @@ hr {
 
 	.navbar.responsive {
 		position: absolute;
-    	height: 21.5%;
+    	height: 26.5%;
 	}
 	.navbar.responsive.icon {
 		position: absolute;
@@ -156,13 +156,17 @@ hr {
 	.navbar.responsive a {
 		float: none;
 		display: block;
-		text-align: right;
+		text-align: left;
+    	font-size: 48px;
 	}
 	.navbar.responsive a.hidden {
 		display: block;
 	}
 	.navbar.responsive a.navHome {
 		display: none;
+	}
+	.navbar.responsive a.storeName {
+    	font-size: 56px;
 	}
 }
 
@@ -180,7 +184,7 @@ hr {
 	}
 
 	.navbar a.icon {
-		float: right;
+		float: left;
 		display: block;
 	}
 
@@ -202,13 +206,13 @@ hr {
 	}
 	.navbar.responsive.icon {
 		position: absolute;
-		right: 0px;
+		left: 0px;
 		top: 0px;
 	}
 	.navbar.responsive a {
 		float: none;
 		display: block;
-		text-align: right;
+		text-align: left;
     	font-size: 24px;
 	}
 	.navbar.responsive a.hidden {
