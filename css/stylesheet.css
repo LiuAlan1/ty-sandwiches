@@ -80,6 +80,7 @@ hr {
 	text-align: center;
 	background-color: white;
 	color: #450001;
+
 }
 
 /*FOOTER*/
@@ -114,8 +115,9 @@ hr {
     width: 80%;
     height: 90px;
     z-index: 100;
-      box-shadow:20px 20px 50px grey;
-}
+      box-shadow:10px 10px 70px grey;
+  }
+
 
 .navbar a {
     display: block;
@@ -131,7 +133,11 @@ hr {
 /*TY SANDWICHES*/
 .navbar .storeName {
 	float: left;
-    font-size: 36px;
+    font-size: 50px;
+    left: 30px;
+    bottom: 7px;
+    font-weight: 450;
+
 }
 
 /*Home, Menu, etc.*/
@@ -174,7 +180,7 @@ hr {
 
 .orderButtonNav {
 	height: 100px;
-	
+
 }
 
 
@@ -337,6 +343,7 @@ hr {
 	background:none!important;
 	width:100%;
 	height:800px;
+
 }
 
 /*ORDER HTML*/
