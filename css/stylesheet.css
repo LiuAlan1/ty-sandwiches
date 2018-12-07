@@ -1,5 +1,9 @@
 body {
+	/*
 	background-image: linear-gradient(to right, rgba(69,0,1,1), rgba(59,0,1,1), rgba(59,0,1,1), rgba(59,0,1,1), rgba(19,0,1,1));
+	*/
+
+	background-color:#993333 ;
 	color: white;
 	font-family: houschka-rounded, sans-serif;
 	font-style: normal;
@@ -58,7 +62,7 @@ hr {
 }
 
 .front {
-	background-image: url(../Images/Front.png);
+	background-image: url(../images/Front.png);
 	width:100%;
 	height: 100%;
 	background-size: cover;
@@ -110,6 +114,7 @@ hr {
     width: 80%;
     height: 90px;
     z-index: 100;
+      box-shadow:20px 20px 50px grey;
 }
 
 .navbar a {
@@ -169,6 +174,7 @@ hr {
 
 .orderButtonNav {
 	height: 100px;
+	
 }
 
 
