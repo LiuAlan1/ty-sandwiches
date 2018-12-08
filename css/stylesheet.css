@@ -69,8 +69,8 @@ hr {
 	float: right;
 	right: -2.5%;
 	position:absolute;
-
 } 
+
 .pageName {
 	position: relative;
 	width: 400px;
@@ -80,7 +80,6 @@ hr {
 	text-align: center;
 	background-color: white;
 	color: #450001;
-
 }
 
 /*FOOTER*/
