@@ -230,7 +230,7 @@ hr {
 
 	.navbar.responsive {
 		position: absolute;
-    	height: 42.5%;
+    	height: 50.5%;
 	}
 	.navbar.responsive.icon {
 		position: absolute;
@@ -260,10 +260,7 @@ hr {
 @media screen and (max-width: 1000px) and (orientation: landscape) {
 
 	.footer {
-
 		font-size: 27px;
-
-
 		opacity:.75;
 		height: 18%;
 	}
@@ -300,11 +297,7 @@ hr {
 
 	.navbar.responsive {
 		position: absolute;
-
-    	
-
     	height: 100%;
-
 	}
 	.navbar.responsive a {
 		float: none;
