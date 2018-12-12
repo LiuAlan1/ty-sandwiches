@@ -1,6 +1,6 @@
 body {
 	
-	background-image: linear-gradient(to right, rgba(120,0,1,1), rgba(79,0,1,1), rgba(69,0,1,1), rgba(59,0,1,1), rgba(19,0,1,1));
+	
 	background-color:#993333;
 	color: white;
 	font-family: houschka-rounded, sans-serif;
@@ -20,7 +20,7 @@ hr {
 	width: 100%;
 	position: relative;
 	left: -7px;
-	top: 103px;
+	top: 63px;
 }
 
 
@@ -53,7 +53,7 @@ hr {
 	width: 400px;
     border-radius: 20px;
 	margin: 0 auto;
-	font-size: 60px;
+	font-size: 35px;
 	text-align: center;
 	background-color: white;
 	color: #450001;
@@ -198,7 +198,8 @@ hr {
 
 	.front {
 
-		bottom:0;
+		float: bottom;
+
 	}
 
 }
