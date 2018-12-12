@@ -366,11 +366,11 @@ hr {
 }
 .gmap_canvas {
 	position: absolute;
-	left: 0px;
+	right: .6%;
 	top: 300px;
 	overflow:hidden;
 	background:none!important;
-	width:100%;
+	width:100.5%;
 	height:800px;
 
 }
