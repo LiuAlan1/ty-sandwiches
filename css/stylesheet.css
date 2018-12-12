@@ -246,10 +246,16 @@ hr {
 	}
 	.navbar.responsive a.storeName {
     	font-size: 56px;
+   		left: 0px;
+    	bottom: 0px;
 	}
 }
 
 @media screen and (max-width: 1000px) and (orientation: landscape) {
+
+	.footer {
+		font-size: 26px;
+	}
 
 	.navbar {
     	width: 100%;
@@ -310,6 +316,8 @@ hr {
 	}
 	.navbar.responsive a.storeName {
     	font-size: 36px;
+   		left: 0px;
+    	bottom: 0px;
 	}
 }
 
