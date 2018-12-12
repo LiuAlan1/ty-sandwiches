@@ -254,7 +254,7 @@ hr {
 @media screen and (max-width: 1000px) and (orientation: landscape) {
 
 	.footer {
-		font-size: 32px;
+		font-size: 14px;
 		opacity:.75;
 	}
 
