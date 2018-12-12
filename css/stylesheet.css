@@ -45,7 +45,7 @@ hr {
 	float: right;
 	right: -2.5%;
 	margin-top: 150px;
-	position:absolute;
+	position: relative;
 } 
 
 .pageName {
@@ -243,9 +243,7 @@ hr {
 	}
 
 	.navbar {
-
-
-    	width: 50%;
+    	width: 100%;
 	    position: absolute;
 	    top: 0px;
 	    left: 0px;
