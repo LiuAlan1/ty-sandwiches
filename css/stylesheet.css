@@ -63,7 +63,7 @@ hr {
 
 .front {
 	background-image: url(../images/Front.png);
-	width:100%;
+	width:105%;
 	height: 100%;
 	background-size: cover;
 	float: right;
@@ -190,6 +190,7 @@ hr {
 
 	.footer {
 		font-size: 32px;
+
 	}
 
 	.navbar {
@@ -216,6 +217,11 @@ hr {
 
 	.orderButtonPos {
 		display: none;
+	}
+
+	.front {
+
+		bottom:0;
 	}
 
 }
@@ -254,8 +260,12 @@ hr {
 @media screen and (max-width: 1000px) and (orientation: landscape) {
 
 	.footer {
-		font-size: 32px;
+
+		font-size: 27px;
+
+
 		opacity:.75;
+		height: 18%;
 	}
 
 	.navbar {
@@ -290,7 +300,11 @@ hr {
 
 	.navbar.responsive {
 		position: absolute;
+
+    	
+
     	height: 100%;
+
 	}
 	.navbar.responsive a {
 		float: none;
