@@ -224,7 +224,7 @@ hr {
 
 	.navbar.responsive {
 		position: absolute;
-    	height: 36.5%;
+    	height: 42.5%;
 	}
 	.navbar.responsive.icon {
 		position: absolute;
@@ -374,6 +374,11 @@ hr {
 
 }
 
+.orderbuttoncontainer {
+	width: 450px;
+	margin: 0px auto;
+}
+
 /*ORDER HTML*/
 .orderbuttondirect {
 	position: relative;
@@ -383,7 +388,7 @@ hr {
 }
 
 .doordash {
-	width:100%;
+	width:450px;
 	height:199px;
 	background-image: url(../images/doordash.png);
 	background-repeat: no-repeat;
@@ -393,7 +398,7 @@ hr {
 }
 
 .grubhub {
-	width:100%;
+	width:450px;
 	height:106px;
 	background-image: url(../images/grubhub.png);
 	background-repeat: no-repeat;
