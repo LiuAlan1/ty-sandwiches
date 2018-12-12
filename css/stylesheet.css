@@ -380,7 +380,7 @@ hr {
 }
 .gmap_canvas {
 	position: absolute;
-	right: .6%;
+	right: .3%;
 	top: 300px;
 	overflow:hidden;
 	background:none!important;
