@@ -1,7 +1,7 @@
 body {
-	/*
-	background-image: linear-gradient(to right, rgba(69,0,1,1), rgba(59,0,1,1), rgba(59,0,1,1), rgba(59,0,1,1), rgba(19,0,1,1));
-	*/
+	
+	background-image: linear-gradient(to right, rgba(120,0,1,1), rgba(79,0,1,1), rgba(69,0,1,1), rgba(59,0,1,1), rgba(19,0,1,1));
+	
 
 	background-color:#993333 ;
 	color: white;
@@ -189,7 +189,7 @@ hr {
 @media screen and (max-width: 1000px) and (orientation: portrait) {
 
 	.footer {
-		font-size: 26px;
+		font-size: 30px;
 	}
 
 	.navbar {
