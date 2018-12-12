@@ -20,9 +20,8 @@ iframe {
 
 hr {
 	border-color: white;
-	width: 110%;
+	width: 96.5%;
 	position: relative;
-	left: -7px;
 	top: 63px;
 }
 
@@ -314,8 +313,11 @@ hr {
 
 .menu {
 	position: relative;
-	left: -7px;
+	width: 95%;
 	padding: 7px;
+	margin: 0 auto;
+	border: 6px solid #450001;
+	border-radius: 10px;
 	background-color: #450001;
 	overflow-x: scroll;
 	overflow-y: hidden;
