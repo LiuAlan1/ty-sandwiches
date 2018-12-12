@@ -290,7 +290,7 @@ hr {
 
 	.navbar.responsive {
 		position: absolute;
-    	height: 82.5%;
+    	height: 100%;
 	}
 	.navbar.responsive a {
 		float: none;
