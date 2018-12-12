@@ -199,7 +199,9 @@ hr {
 
 	.front {
 
-		float: bottom;
+		margin-top: 550px;
+		width: 100%;
+		height: 250%;
 
 	}
 
