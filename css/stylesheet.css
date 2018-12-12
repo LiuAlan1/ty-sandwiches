@@ -230,7 +230,7 @@ hr {
 
 	.navbar.responsive {
 		position: absolute;
-    	height: 36.5%;
+    	height: 42.5%;
 	}
 	.navbar.responsive.icon {
 		position: absolute;
@@ -260,7 +260,10 @@ hr {
 @media screen and (max-width: 1000px) and (orientation: landscape) {
 
 	.footer {
+
 		font-size: 27px;
+
+
 		opacity:.75;
 		height: 18%;
 	}
@@ -297,7 +300,11 @@ hr {
 
 	.navbar.responsive {
 		position: absolute;
-    	height: 90.5%;
+
+    	
+
+    	height: 100%;
+
 	}
 	.navbar.responsive a {
 		float: none;
@@ -382,6 +389,11 @@ hr {
 
 }
 
+.orderbuttoncontainer {
+	width: 450px;
+	margin: 0px auto;
+}
+
 /*ORDER HTML*/
 .orderbuttondirect {
 	position: relative;
@@ -391,7 +403,7 @@ hr {
 }
 
 .doordash {
-	width:100%;
+	width:450px;
 	height:199px;
 	background-image: url(../images/doordash.png);
 	background-repeat: no-repeat;
@@ -401,7 +413,7 @@ hr {
 }
 
 .grubhub {
-	width:100%;
+	width:450px;
 	height:106px;
 	background-image: url(../images/grubhub.png);
 	background-repeat: no-repeat;
