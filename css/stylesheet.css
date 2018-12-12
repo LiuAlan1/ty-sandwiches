@@ -243,7 +243,9 @@ hr {
 	}
 
 	.navbar {
-    	width: 100%;
+
+
+    	width: 50%;
 	    position: absolute;
 	    top: 0px;
 	    left: 0px;
