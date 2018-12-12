@@ -190,6 +190,7 @@ hr {
 
 	.footer {
 		font-size: 32px;
+
 	}
 
 	.navbar {
@@ -216,6 +217,11 @@ hr {
 
 	.orderButtonPos {
 		display: none;
+	}
+
+	.front {
+
+		bottom:0;
 	}
 
 }
