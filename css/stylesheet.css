@@ -1,6 +1,9 @@
 body {
+	
 	background-image: linear-gradient(to right, rgba(120,0,1,1), rgba(79,0,1,1), rgba(69,0,1,1), rgba(59,0,1,1), rgba(19,0,1,1));
-	background-color:#993333;
+	
+
+	background-color:#993333 ;
 	color: white;
 	font-family: houschka-rounded, sans-serif;
 	font-style: normal;
@@ -16,7 +19,7 @@ iframe {
 
 hr {
 	border-color: white;
-	width: 102.5%;
+	width: 100%;
 	position: relative;
 	left: -7px;
 	top: 103px;
@@ -26,13 +29,35 @@ hr {
 
 .mainContainment {
 
-	width: 110%;
+	width: 100%;
 	height:100%;
 	background-size: 100%;
-	left: 50px;
-	top: 100px;
+	right: 0;
+	bottom: 0;
 	position: absolute;
 	padding: 0;
+
+}
+
+.containment_2 {
+
+	width: 90%;
+	background-color: white;
+	float: left;
+	margin-top: 150px;
+}
+
+
+
+.containment_3 {
+
+	width: 95%;
+	height: 80%;
+	
+	float: right;
+	right: 0;
+	bottom: 0;
+	position: absolute;	
 
 }
 
@@ -42,6 +67,7 @@ hr {
 	height: 100%;
 	background-size: cover;
 	float: right;
+	right: -2.5%;
 	position:absolute;
 } 
 
@@ -164,10 +190,11 @@ hr {
 
 	.footer {
 		font-size: 32px;
+
 	}
 
 	.navbar {
-    	width: 102.5%;
+    	width: 100%;
 	    position: absolute;
 	    top: 0px;
 	    left: 0px;
@@ -203,7 +230,7 @@ hr {
 
 	.navbar.responsive {
 		position: absolute;
-    	height: 50.5%;
+    	height: 42.5%;
 	}
 	.navbar.responsive.icon {
 		position: absolute;
@@ -235,12 +262,14 @@ hr {
 	.footer {
 
 		font-size: 27px;
+
+
 		opacity:.75;
 		height: 18%;
 	}
 
 	.navbar {
-    	width: 102.5%;
+    	width: 100%;
 	    position: absolute;
 	    top: 0px;
 	    left: 0px;
