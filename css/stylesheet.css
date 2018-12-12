@@ -255,6 +255,7 @@ hr {
 
 	.footer {
 		font-size: 32px;
+		opacity:.75;
 	}
 
 	.navbar {
