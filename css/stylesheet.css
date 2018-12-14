@@ -28,6 +28,11 @@ hr {
 	border-radius: 10px 10px 10px 10px;
 }
 
+.smallerline {
+	width: 60.5%;
+	height: 2px;
+}
+
 
 
 .mainContainment {
@@ -136,6 +141,7 @@ hr {
 	background-color: white;
 	color: #450001;
 	opacity: 0;
+	bottom: 105px;
 }
 /*Home, Menu, etc.*/
 
