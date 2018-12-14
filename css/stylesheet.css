@@ -84,7 +84,6 @@ hr {
 .navbar {
     border-radius: 20px;
     display: inline-block;
-    list-style-type: none;
     padding: 0;
     overflow: hidden;
     background-color: white;
@@ -107,23 +106,23 @@ hr {
     padding: 20px;
     text-decoration: none;
 	font-weight: 600;
+    font-size: 36px;
 }
 
 /*TY SANDWICHES*/
 .navbar .storeName {
 	float: left;
-    font-size: 50px;
     left: 30px;
     bottom: 7px;
     font-weight: 450;
     font-size: 45px; 
+}
 
+.storeName a:hover {
+    cursor: pointer;
 }
 
 /*Home, Menu, etc.*/
-.navbar a.option {
-    font-size: 36px;
-}
 
 .navbar a.option:hover {
     cursor: pointer;
@@ -135,7 +134,6 @@ hr {
 .navbar a.active {
     background-color: #8d4b48;
     color: white;
-    font-size: 36px;
 }
 
 .navbar .icon {
@@ -145,10 +143,6 @@ hr {
 
 .navbar .hidden {
 	display: none;
-}
-
-.storeName a:hover {
-    cursor: pointer;
 }
 
 .orderButtonPos {
