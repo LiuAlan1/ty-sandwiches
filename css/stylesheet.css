@@ -20,9 +20,11 @@ iframe {
 
 hr {
 	border-color: white;
+	height: .5px;
+	background-color: white;
 	width: 96.5%;
 	position: relative;
-	top: 63px;
+	top: 61px;
 }
 
 
