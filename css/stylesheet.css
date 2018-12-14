@@ -59,6 +59,8 @@ hr {
 	color: #450001;
 }
 
+
+
 /*FOOTER*/
 
 .footer {
@@ -117,6 +119,19 @@ hr {
 
 }
 
+
+/* welcome sign*/
+.pageName2 {
+	position: relative;
+	width: 400px;
+    border-radius: 20px;
+	margin: 0 auto;
+	font-size: 35px;
+	text-align: center;
+	background-color: white;
+	color: #450001;
+	opacity: 0;
+}
 /*Home, Menu, etc.*/
 .navbar a.option {
     font-size: 36px;
@@ -199,13 +214,35 @@ hr {
 
 	.front {
 
-
-		
 		right: 0;
 		background-position: bottom;
 
-
 	}
+
+
+
+	.pageName {
+	position: relative;
+	width: 400px;
+    border-radius: 20px;
+	margin: 0 auto;
+	font-size: 35px;
+	text-align: center;
+	background-color: white;
+	color: #450001;	
+	}
+
+	.pageName2 {
+	position: relative;
+	width: 400px;
+    border-radius: 20px;
+	margin: 0 auto;
+	font-size: 95px;
+	text-align: center;
+	background-color: white;
+	color: #450001;
+	opacity: 1;
+}
 
 }
 
